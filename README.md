@@ -38,3 +38,17 @@ Permet un développement rapide et facilement scalable. On perd cependant en fle
 ### Risque de vendor lock-in
 
 Entièrement dans l'écosystème AWS. Interface propriétaire.
+
+
+### Quand est-ce que l'outil est adapté
+
+- Parfait pour des petits projets simples pour être déployé rapidement, sans construire un backend "à la main"
+- Quand l'équipe travaille déjà avec des outils de AWS, intégration est très facile
+- Hackathon, pour déployer un prototype très rapide en 24-48 heures
+
+### Quand ça n'est PAS adapté
+
+- Application avec backend complexe -> typiquement jeu en ligne
+- Quelque chose qui va demander beaucoup de calculs (LLM)
+- Si l'équipe a des services cloud pas dans l'environnement AWS
+- Pas du tout adapté aux grosses applications, limité en nombre d'exécutions concurrentes, coûts grandissent de manière exponentielle
